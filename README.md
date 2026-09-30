@@ -1,3 +1,4 @@
+<img width="560" height="364" alt="screen-recording-under-10mb-2" src="https://github.com/user-attachments/assets/795c1bb7-66fd-4d15-af78-bb725f136f96" />
 # WEB103 Project 2 - *Adulting 101*
 
 Submitted by: **Abha Mam**
@@ -39,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img width="640" height="415" alt="screen-recording-under-10mb" src="https://github.com/user-attachments/assets/f72ef261-e25b-4e80-a4a7-ccad0ca84953" />
+<img width="560" height="364" alt="screen-recording-under-10mb-2" src="https://github.com/user-attachments/assets/b0195060-ef38-4a2c-a556-e33c4b4a885a" />
 
 
 <!-- Replace this with whatever GIF tool you used! -->
