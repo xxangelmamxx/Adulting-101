@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <title>Adulting 101</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container">
+        <ul>
+          <li><a href="/" class="brand"><span class="brand-mark">101</span> Adulting</a></li>
+        </ul>
+        <ul>
+          <li><a href="/#tasks" class="nav-pill">← All tasks</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container narrow">
+      <div id="task-detail" aria-busy="true"></div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span class="brand"><span class="brand-mark">101</span> Adulting</span>
+        <small>You are doing better than you think✨</small>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/scripts/task.js"></script>
+  </body>
+</html>

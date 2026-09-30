@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <title>Adulting 101</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container">
+        <ul>
+          <li><a href="/" class="brand"><span class="brand-mark">101</span> Adulting</a></li>
+        </ul>
+        <ul>
+          <li><a href="#tasks" class="nav-pill">Browse tasks ↓</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-text">
+          <span class="sticker tilt-left">📘 The manual nobody gave you</span>
+          <h1>Adulting <span class="hl">101</span></h1>
+          <p class="lede">Taxes, leases, flat tires, first budgets. Pick the grown-up thing you have been avoiding and we will walk you through it, one checkbox at a time.</p>
+          <div class="hero-stats" id="hero-stats"></div>
+        </div>
+
+        <aside class="level-card" id="level-card" aria-live="polite">
+          <p class="level-label">Your adulting level</p>
+          <p class="level-icon" aria-hidden="true">🍼</p>
+          <p class="level-name">Loading…</p>
+        </aside>
+      </section>
+
+      <div class="marquee-wrap" aria-hidden="true">
+        <div class="marquee">
+          <div class="marquee-track">
+            <span>Pay rent on time</span><span>✦</span><span>Drink some water</span><span>✦</span><span>Read the fine print</span><span>✦</span><span>Call the insurance company</span><span>✦</span><span>Clean the lint trap</span><span>✦</span><span>Save 20%</span><span>✦</span><span>Book the dentist</span><span>✦</span>
+            <span>Pay rent on time</span><span>✦</span><span>Drink some water</span><span>✦</span><span>Read the fine print</span><span>✦</span><span>Call the insurance company</span><span>✦</span><span>Clean the lint trap</span><span>✦</span><span>Save 20%</span><span>✦</span><span>Book the dentist</span><span>✦</span>
+          </div>
+        </div>
+      </div>
+
+      <section class="container" id="tasks">
+        <div class="section-head">
+          <h2>Pick your quest</h2>
+          <p class="result-count" id="result-count" aria-live="polite"></p>
+        </div>
+
+        <div class="controls">
+          <div class="search-wrap">
+            <span aria-hidden="true">🔍</span>
+            <input type="search" id="search" placeholder="Search tasks: taxes, laundry, tire…" aria-label="Search tasks" />
+            <kbd aria-hidden="true">/</kbd>
+          </div>
+          <select id="difficulty" aria-label="Filter by difficulty">
+            <option value="">Any difficulty</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+          </select>
+        </div>
+        <div class="chips" id="category-chips"></div>
+
+        <div class="task-grid" id="task-grid" aria-busy="true"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span class="brand"><span class="brand-mark">101</span> Adulting</span>
+        <small>You are doing better than you think✨</small>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/scripts/tasks.js"></script>
+  </body>
+</html>
