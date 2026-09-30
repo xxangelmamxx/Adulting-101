@@ -39,10 +39,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/BEZiHcb' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img width="640" height="415" alt="screen-recording-under-10mb" src="https://github.com/user-attachments/assets/f72ef261-e25b-4e80-a4a7-ccad0ca84953" />
+
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  imgur
+GIF created with ...  chatGPT conversion
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
