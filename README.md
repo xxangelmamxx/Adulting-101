@@ -1,4 +1,3 @@
-<img width="560" height="364" alt="screen-recording-under-10mb-2" src="https://github.com/user-attachments/assets/795c1bb7-66fd-4d15-af78-bb725f136f96" />
 # WEB103 Project 2 - *Adulting 101*
 
 Submitted by: **Abha Mam**
